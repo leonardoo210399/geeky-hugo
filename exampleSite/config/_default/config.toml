@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://demo.statichunt.com/geeky-hugo/"
-title = "Geeky | Hugo Personal Blog Template"
+title = "Nemo | Leetcode Solutions"
 theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"
