@@ -8,10 +8,7 @@ tags: ["tech", "ai"]
 type: "featured" # available types: [featured/regular]
 draft: false
 ---
-
-# Deciphering Valid Anagrams: A Multi-Approach Dive
-
-Please solve the following algorithmic problem step-by-step, and present your solution with a detailed explanation, code implementation, and complexity analysis. Use the structure outlined below:
+Sure, here's the final structure with the added option to copy code:
 
 ---
 
@@ -52,6 +49,7 @@ This approach involves sorting both strings and comparing them. If both sorted s
 def isAnagram(s: str, t: str) -> bool:
     return sorted(s) == sorted(t)
 ```
+<button onclick="copyCode('python-sort')">Copy code</button>
 
 **Javascript:**
 ```javascript
@@ -59,6 +57,7 @@ function isAnagram(s, t) {
     return s.split('').sort().join('') === t.split('').sort().join('');
 }
 ```
+<button onclick="copyCode('js-sort')">Copy code</button>
 
 #### Complexity Analysis:
 
@@ -98,6 +97,7 @@ def isAnagram(s: str, t: str) -> bool:
     
     return True
 ```
+<button onclick="copyCode('python-hashmap')">Copy code</button>
 
 **Javascript:**
 ```javascript
@@ -122,6 +122,7 @@ function isAnagram(s, t) {
     return true;
 }
 ```
+<button onclick="copyCode('js-hashmap')">Copy code</button>
 
 #### Complexity Analysis:
 
@@ -161,6 +162,7 @@ def isAnagram(s: str, t: str) -> bool:
     
     return True
 ```
+<button onclick="copyCode('python-array')">Copy code</button>
 
 **Javascript:**
 ```javascript
@@ -185,6 +187,7 @@ function isAnagram(s, t) {
     return true;
 }
 ```
+<button onclick="copyCode('js-array')">Copy code</button>
 
 #### Complexity Analysis:
 
@@ -194,3 +197,14 @@ function isAnagram(s, t) {
 *Conclusion:*
 
 We explored three different approaches to solve the Valid Anagram problem. The sorting approach is simple but less efficient. The hashmap and array-based counting approaches offer linear time complexity and are more efficient. The array-based counting method is the most space-efficient solution, making it optimal among the three approaches.
+
+<script>
+function copyCode(id) {
+    var code = document.getElementById(id).innerText.trim();
+    navigator.clipboard.writeText(code).then(function() {
+        alert("Code copied to clipboard!");
+    }, function() {
+        alert("Copy failed. Please try again.");
+    });
+}
+</script>
