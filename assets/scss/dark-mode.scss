@@ -1,4 +1,93 @@
+/* dark-mode.scss */
 
+/* Body and general styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+body.dark-mode header {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Link styles */
+body.dark-mode a {
+    color: #bb86fc;
+}
+
+body.dark-mode a:hover {
+    color: #ff79c6;
+}
+
+/* Button styles */
+body.dark-mode button {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+body.dark-mode button:hover {
+    background-color: #444444;
+}
+
+/* Input field styles */
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+/* Footer styles */
+body.dark-mode footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Code block styles */
+body.dark-mode pre,
+body.dark-mode code {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+}
+
+/* Table styles */
+body.dark-mode table {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+    border: 1px solid #444444;
+}
+
+/* Navbar styles */
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Card styles */
+body.dark-mode .card {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+}
+
+/* Other component styles */
+body.dark-mode .some-component {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+body.dark-mode .another-component {
+    background-color: #222222;
+    color: #cccccc;
+}
 /* dark-mode.scss */
 
 body.dark-mode {
