@@ -1,5 +1,48 @@
+
+/* dark-mode.scss */
+
 body.dark-mode {
     background-color: #121212;
     color: #ffffff;
-    // Add other dark mode styles here
+}
+
+/* Header styles */
+body.dark-mode header {
+    background-color: #1e1e1e;
+}
+
+/* Link styles */
+body.dark-mode a {
+    color: #bb86fc;
+}
+
+/* Button styles */
+body.dark-mode button {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Input field styles */
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+/* Footer styles */
+body.dark-mode footer {
+    background-color: #1e1e1e;
+}
+
+/* Additional component styles */
+body.dark-mode .some-component {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+/* Other dark mode styles */
+body.dark-mode .another-component {
+    background-color: #222222;
+    color: #cccccc;
 }
